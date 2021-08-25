@@ -196,7 +196,7 @@ a{
 
 .section3{
     width: 100%;
-    height: 1080px;
+    margin: 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +212,6 @@ a{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding-bottom: 100px;
 }
 
 .sec03-lline{
@@ -239,8 +238,7 @@ a{
 
 .sec03-btn{
     width: 75%;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 80px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -353,7 +351,7 @@ a{
 
 .sec03-content{
     width: 80%;
-    margin: 60px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -404,7 +402,6 @@ a{
 
 .sec03-content-text{
     width: 45%;
-    height: 500px;
 }
 
 .sec03-content-text p{
@@ -456,7 +453,6 @@ a{
 
 .section5{
     width: 100%;
-    height: 1080px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -465,8 +461,7 @@ a{
 
 .sec05-title{
     width: 80%;
-    margin: 0 auto;
-    padding-bottom: 100px;;
+    margin: 80px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -535,7 +530,7 @@ a{
 .sec05-img1{
     width: 100%;
     height: 400px;
-    background-image: url('../images/hansick.jpg');
+    background-image: url('../images/한식당.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -544,7 +539,7 @@ a{
 .sec05-img2{
     width: 100%;
     height: 400px;
-    background-image: url('../images/jeonju.jpg');
+    background-image: url('../images/전주.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -553,7 +548,7 @@ a{
 .sec05-img3{
     width: 100%;
     height: 400px;
-    background-image: url('../images/dookbeagi.jpg');
+    background-image: url('../images/뚝배기.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -562,7 +557,7 @@ a{
 .sec05-img4{
     width: 100%;
     height: 400px;
-    background-image: url('../images/dooboo.jpg');
+    background-image: url('../images/두부.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -571,7 +566,7 @@ a{
 .sec05-img5{
     width: 100%;
     height: 400px;
-    background-image: url('../images/chunggi.jpg');
+    background-image: url('../images/청기.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -580,7 +575,7 @@ a{
 .sec05-img6{
     width: 100%;
     height: 400px;
-    background-image: url('../images/zzambbong.jpg');
+    background-image: url('../images/짬뽕.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -605,7 +600,7 @@ a{
 
 .section6{
     width: 100%;
-    height: 937px;
+    margin: 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -629,7 +624,7 @@ a{
 
 .sec06-title{
     width: 80%;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -745,9 +740,6 @@ footer{
         top: 170px;
         right: 10%;
     }
-    .section3{
-        height: 1350px;
-    }
     .sec03-btn{
         width: 100%;
     }
@@ -765,7 +757,7 @@ footer{
         width: 100%;
         flex-direction: column;
     }
-    .sec03-content-text {
+    .sec03-content-text{
         width: 100%;
         margin-top: 30px;
     }
@@ -791,13 +783,13 @@ footer{
     }
 }
 
-@media(min-width: 768px){
+@media(min-width: 767px){
     .sub-menu li a{
         display: none;
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 767px){
     .section1{
         height: 750px;
     }
@@ -890,11 +882,12 @@ footer{
         left: 30px;
     }
     .section3{
-        height: 600px;
         display: block;
+        margin: 0;
     }
     .sec03-wrap{
         width: 90%;
+        margin: 100px auto;
     }
     .sec03-lline{
         width: 30%;
@@ -906,7 +899,7 @@ footer{
         font-size: 18px;
     }
     .sec03-title{
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
     .sec03-title span{
         font-size: 18px;
@@ -969,7 +962,6 @@ footer{
     .sec03-img{
         width: 100%;
         height: 250px;
-        margin-top: -20px;
     }
     .sec03-content-text{
         width: 100%;
@@ -990,11 +982,12 @@ footer{
         font-weight: 300;
     }
     .section5{
-        height: 766px;
+        margin: 100px 0;
     }
     .sec05-title{
         width: 80%;
-        padding: 50px 0;
+        margin: 0;
+        padding-bottom: 50px;
     }
     .sec05-title h1{
         font-size: 18px;
@@ -1045,11 +1038,8 @@ footer{
     .swiper-button-next, .swiper-button-prev{
         display: none;
     }
-    .section6{
-        height: 500px;
-    }
     .sec06-title{
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
     .sec06-title h1{
         font-size: 18px;
