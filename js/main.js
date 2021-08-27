@@ -104,6 +104,10 @@ $(function () {
 var swiper = new Swiper(".sec05-slider", {
   slidesPerView: 3,
   spaceBetween: 30,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
